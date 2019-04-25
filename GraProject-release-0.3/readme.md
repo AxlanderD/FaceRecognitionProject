@@ -2,7 +2,7 @@
 本次项目的具体流程
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 <br>
-主流程：<br>
+<strong>主流程：</strong><br>
 主程序入口文件为face_draw_main_.py<br>
 0.初始化MTCNN和faceNet网络<br>
 1.OpenCV打开摄像头或视频或图片<br>
@@ -15,25 +15,25 @@
 ===========================================================
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-人脸数据输入流程：
-1.face_alignment.py模块中可以保存对齐后的人脸图片
-2.face_annoy.py模块将对齐后的人脸图片编码入库
+<strong>人脸数据输入流程：</strong><br>
+1.face_alignment.py模块中可以保存对齐后的人脸图片<br>
+2.face_annoy.py模块将对齐后的人脸图片编码入库<br>
 
 ===========================================================
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-项目运行环境：
-windows 10
-python 3.6
-mxnet-cu90 1.4.0
-tensorflow 1.5.0
-
-ps:这里的tensorflow没有使用gpu版本，主要是因为使用的电脑显卡是GTX970m 显存3G，两个网络一起使用的时候会发生cudamalloc fail：out of memory 的问题。
-但是单个网络运行的时候都没有问题。
-目前想到的解决办法：
-1.有条件的话通过指定gpu，让两个网络运行在两个gpu上
-2.不使用mxnet版本的MTCNN，而是直接使用tensorflow版本的MTCNN（这里的MTCNN我有两个版本的，但是mxnet版本对于人脸的检测率更高一些..难以取舍:-）
-3.将faceNet或者MTCNN二者其一设置运行在cpu上
-目前我选择的是让faceNet使用cpu版本tensorflow..
+项目运行环境：<br>
+windows 10<br>
+python 3.6<br>
+mxnet-cu90 1.4.0<br>
+tensorflow 1.5.0<br>
+<br>
+ps:这里的tensorflow没有使用gpu版本，主要是因为使用的电脑显卡是GTX970m 显存3G，两个网络一起使用的时候会发生cudamalloc fail：out of memory 的问题。<br>
+但是单个网络运行的时候都没有问题。<br>
+目前想到的解决办法：<br>
+1.有条件的话通过指定gpu，让两个网络运行在两个gpu上<br>
+2.不使用mxnet版本的MTCNN，而是直接使用tensorflow版本的MTCNN（这里的MTCNN我有两个版本的，但是mxnet版本对于人脸的检测率更高一些..难以取舍:-）<br>
+3.将faceNet或者MTCNN二者其一设置运行在cpu上<br>
+目前我选择的是让faceNet使用cpu版本tensorflow..<br>
 
 ===========================================================

@@ -16,7 +16,7 @@
 1.face_alignment.py模块中可以保存对齐后的人脸图片<br>
 2.face_annoy.py模块将对齐后的人脸图片编码入库<br>
 
-<strong>项目运行环境：</strong<br>
+<strong>项目运行环境：</strong><br>
 windows 10<br>
 python 3.6<br>
 mxnet-cu90 1.4.0<br>

@@ -22,7 +22,7 @@ python 3.6<br>
 mxnet-cu90 1.4.0<br>
 tensorflow 1.5.0<br>
 <br>
-ps:这里的tensorflow没有使用gpu版本，主要是因为使用的电脑显卡是GTX970m 显存3G，两个网络一起使用的时候会发生cudamalloc fail：out of memory 的问题。<br>
+<strong>Ps:</strong>这里的tensorflow没有使用gpu版本，主要是因为使用的电脑显卡是GTX970m 显存3G，两个网络一起使用的时候会发生cudamalloc fail：out of memory 的问题。<br>
 但是单个网络运行的时候都没有问题。<br>
 目前想到的解决办法：<br>
 1.有条件的话通过指定gpu，让两个网络运行在两个gpu上<br>
@@ -30,4 +30,4 @@ ps:这里的tensorflow没有使用gpu版本，主要是因为使用的电脑显�
 3.将faceNet或者MTCNN二者其一设置运行在cpu上<br>
 目前我选择的是让faceNet使用cpu版本tensorflow..<br>
 
-目前就先是这些。后续还会有更新
+目前就先是这些。后续还会有更新..

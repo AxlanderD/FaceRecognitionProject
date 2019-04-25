@@ -1,6 +1,5 @@
-这个文件中的model文件可以在github上找到，facenet和mtcnn的预训练模型。
-本次项目的具体流程
-
+这个文件中的model文件可以在github上找到，facenet和mtcnn的预训练模型。<br>
+本次项目的具体流程<br>
 <br>
 <strong>主流程：</strong><br>
 主程序入口文件为face_draw_main_.py<br>
@@ -29,5 +28,5 @@ tensorflow 1.5.0<br>
 2.不使用mxnet版本的MTCNN，而是直接使用tensorflow版本的MTCNN（这里的MTCNN我有两个版本的，但是mxnet版本对于人脸的检测率更高一些..难以取舍:-）<br>
 3.将faceNet或者MTCNN二者其一设置运行在cpu上<br>
 目前我选择的是让faceNet使用cpu版本tensorflow..<br>
-
+<br>
 目前就先是这些。后续还会有更新..

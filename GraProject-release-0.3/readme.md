@@ -30,3 +30,7 @@ tensorflow 1.5.0<br>
 目前我选择的是让faceNet使用cpu版本tensorflow..<br>
 <br>
 目前就先是这些。后续还会有更新..
+==================05.04==================
+使用 PyQt5 添加了GUI界面
+<br>
+入口程序改为GraProject.py

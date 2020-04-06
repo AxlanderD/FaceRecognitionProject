@@ -8,8 +8,9 @@
     - 远程IP摄像头识别
   - 语音示警
   - 自动变色标注
-Environment：
-<p>Python 3.6 </p>
-<p>Tensorflow 1.5.0 </p>
-<p>Mxnet 1.4.0-cu90 </p>
-<p> PYQT 5.11 </p>
+  
+# Environment：
+- Python 3.6
+- Tensorflow 1.5.0
+- Mxnet 1.4.0-cu90
+- PYQT 5.11

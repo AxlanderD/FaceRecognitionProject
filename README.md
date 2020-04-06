@@ -1,5 +1,13 @@
-# FaceRecognitionProject
-this project use MTCNN for detection and FaceNet for embeding.
+# 基于深度学习神经网络实现的人脸识别系统
+- 功能列表
+  - 人脸检测
+  - 自动人脸对齐
+  - 人脸识别
+    - 视频识别
+    - 图片识别
+    - 远程IP摄像头识别
+  - 语音示警
+  - 自动变色标注
 Environment：
 <p>Python 3.6 </p>
 <p>Tensorflow 1.5.0 </p>
